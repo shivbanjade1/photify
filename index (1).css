@@ -1,8 +1,6 @@
 /*!
- * Line width improved, class separated
-* Resize box size improved
+ * Points restored
  */
-
 
  .cropper-container {
     direction: ltr;
@@ -174,7 +172,7 @@
   }
   
   .cropper-point {
-    background-color: none;
+    background-color: #F63A9E;
     height: 5px;
     opacity: 0.75;
     width: 5px;
@@ -227,6 +225,7 @@
   }
   
   .cropper-point.point-se {
+    opacity: 0;
     bottom: -3px;
     cursor: nwse-resize;
     height: 20px;
