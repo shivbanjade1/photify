@@ -187,7 +187,7 @@
   .cropper-point.point-e {
     cursor: ew-resize;
     margin-top: -3px;
-    right: -3px;
+    right: 18px;
     top: 50%;
   }
   
@@ -195,18 +195,18 @@
     cursor: ns-resize;
     left: 50%;
     margin-left: -3px;
-    top: -3px;
+    top: 18px;
   }
   
   .cropper-point.point-w {
     cursor: ew-resize;
-    left: -3px;
+    left: 18px;
     margin-top: -3px;
     top: 50%;
   }
   
   .cropper-point.point-s {
-    bottom: -3px;
+    bottom: 18px;
     cursor: s-resize;
     left: 50%;
     margin-left: -3px;
@@ -214,20 +214,20 @@
   
   .cropper-point.point-ne {
     cursor: nesw-resize;
-    right: -3px;
-    top: -3px;
+    right: 18px;
+    top: 18px;
   }
   
   .cropper-point.point-nw {
     cursor: nwse-resize;
-    left: -3px;
-    top: -3px;
+    left: 18px;
+    top: 18px;
   }
   
   .cropper-point.point-sw {
-    bottom: -3px;
+    bottom: 18px;
     cursor: nesw-resize;
-    left: -3px;
+    left: 18px;
   }
   
   .cropper-point.point-se {
