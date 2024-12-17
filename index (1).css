@@ -232,11 +232,11 @@
   
   .cropper-point.point-se {
     opacity: 0;
-    bottom: -3px;
+    bottom: 0px;
     cursor: nwse-resize;
     height: 20px;
     opacity: 1;
-    right: -3px;
+    right: 0px;
     width: 20px;
     background-image: url('https://5fa4a340f8c967ae9d08053cb424cc05.cdn.bubble.io/f1734092191956x348082132866867500/flowbite_chevron-sort-outline.svg'); /* Add your image URL here */ 
     background-size: cover; 
