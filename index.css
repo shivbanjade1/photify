@@ -23,13 +23,15 @@
 
 .croppie-container .cr-viewport {
     position: absolute;
-    border: 2px solid #fff;
+    border: 2px solid #F63A9E;
     margin: auto;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-    box-shadow: 0 0 2000px 2000px rgba(0, 0, 0, .5);
+    box-shadow: 
+      0 0 2000px 2000px rgba(0, 0, 0, 0.5), /* Outer shadow */
+      inset 0 0 0 16px rgba(0, 0, 0, 0.6); /* Inner shadow */
     z-index: 0
 }
 
