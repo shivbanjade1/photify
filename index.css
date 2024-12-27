@@ -71,7 +71,7 @@
     transform: translateZ(0)
 }
 
-.cr-slider {
+/* .cr-slider {
     -webkit-appearance: none;
     width: 300px;
     max-width: 100%
@@ -155,7 +155,75 @@
 
 .cr-slider:focus::-ms-fill-upper {
     background: rgba(0, 0, 0, .5)
-}
+} */
+
+/* General slider styles */
+.cr-slider {
+    -webkit-appearance: none; /* Remove default WebKit styles */
+    -moz-appearance: none; /* Remove default Mozilla styles */
+    appearance: none;
+    width: 100%; /* Full width */
+    height: 8px; /* Track height */
+    background: #ffc0cb; /* Light pink track color */
+    border-radius: 4px; /* Rounded track edges */
+    outline: none;
+    transition: background 0.3s ease;
+  }
+
+  .cr-slider:hover {
+    background: #ff99cc; /* Slightly darker pink on hover */
+  }
+
+  /* WebKit (Chrome, Safari) thumb styles */
+  .cr-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px; /* Thumb size */
+    height: 16px;
+    background: #ff69b4; /* Bright pink thumb color */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  }
+
+  /* Mozilla (Firefox) thumb styles */
+  .cr-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: #ff69b4;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Internet Explorer / Edge thumb styles */
+  .cr-slider::-ms-thumb {
+    width: 16px;
+    height: 16px;
+    background: #ff69b4;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Internet Explorer / Edge track styles */
+  .cr-slider::-ms-track {
+    width: 100%;
+    height: 8px;
+    background: transparent; /* Transparent to allow custom styles */
+    border-color: transparent; /* Remove borders */
+    color: transparent; /* Remove colors */
+  }
+
+  .cr-slider::-ms-fill-lower {
+    background: #ffc0cb; /* Pink track for filled portion */
+    border-radius: 4px;
+  }
+
+  .cr-slider::-ms-fill-upper {
+    background: #ffc0cb; /* Pink track for unfilled portion */
+    border-radius: 4px;
+  }
 
 .cr-rotate-controls {
     position: absolute;
