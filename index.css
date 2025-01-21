@@ -29,7 +29,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    box-shadow: 0 0 2000px 2000px rgb(229 229 229 1)
+    box-shadow: 0 0 2000px 2000px rgba(229, 229, 229, 1);
     z-index: 0
 }
 
